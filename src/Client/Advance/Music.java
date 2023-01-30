@@ -21,7 +21,7 @@ public class Music extends Thread {
      * @param station 播放状态，循环或者播放一次
      */
     public Music(String file,int station) {
-        this.music = System.getProperty("user.dir") + "\\music\\" + file;
+        this.music = System.getProperty("user.dir") + "/music/" + file;
         this.station = station;
     }
 
